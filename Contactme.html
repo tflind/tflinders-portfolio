@@ -5,77 +5,49 @@
     <title>Contact Me | Tim Flinders</title>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>About Me | Tim Flinders</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
-    <style>
-        body{
-            background-color: #DDD;
-            font-family: 'Shadows Into Light', serif;
-        }
-
-        .navsection{
-            display:flex;
-            justify-content: space-between;
-            width 80%;
-            background-color: #0F2439;
-            border-radius: 3px;
-            margin: 0 auto;
-            border-radius: 3px;
-            padding: 15px;
-        }
-
-        .navsection a{
-            color: #FFF;
-            font-family: 'Shadows Into Light', serif;
-            text-decoration: none;
-            padding: 5px;
-        }
-
-        .mytitle{
-            width: 100%
-            font-size: 25px;
-            margin: 50px 0px 30px 15px;
-            background-image: url('images/IMG_3027.jpg');
-        }
-        .homepagelink{
-            text-decoration: underline;
-        }
-
-
-    </style>
 </head>
+
 <body>
     <div class="container">
         <div class="navsection">
             <a href='home page.html'>Home</a>
-            <a href='#'>About Me</a>
+            <a href='Aboutme.html'>About Me</a>
             <a href='contactme.html'>Contact Me</a>
             <a href='portfolio.html'>Portfolio</a>
-            <a href='#'>Resum&eacute</a>
+            <a href='resumepage.html'>Resum&eacute</a>
+        </div>
+        <div class="contact-form">
+            <form id="contact_form" action="#" method="post">
+            <div class="contactrow">
+                <p><label for="name">Your Name: (Required)</label></p>
+                <p><input id="name" class="input" name="name" type"text" value="" size="50" required/></p>
+            </div>
+            <div class="contactrow">
+                <p><label for="email">Your Email: (Required)</label></p>
+                <p><input id="email" class="input" name="email" type"email" value="" size="50" placeholder="your@emailaddress.com" required/></p>
+            </div>
+            <div class="contactrow">
+                <p><label for="subject">Subject:</label></p>
+                <p><input id="subject" class="input" name="subject" type"text" value="" size="50"/></p>
+            </div>
+            <div class="contactrow">
+                <p><label for="message">Message:</label></p>
+                <p><textarea id="message" class="input" name="message" rows="7" cols="50" placeholder="Your Message (not a working form)"></textarea></p>
+            </div>
+            <div>
+                <div class="button">
+                    <a href="#">Send Message</a>
+                    </button>
+                </div>
+            </div>
+            </form>
+        </div>
 
+        <div class="footer">
+            <span>&copy; Tim Flinders 2017</span>
+        </div>
     </div>
-</div>
-    <form id="contact_form" action="#" method="post">
-        <div class="row">
-            <label for="name">Name: (Required)</label><br/>
-            <input id="name" class="input" name="name" type"text" value="" size="50" required/><br/>
-        </div>
-        <div class="row">
-            <label for="email">Email: (Required)</label><br/>
-            <input id="email" class="input" name="email" type"email" value="" size="50" placeholder="example@example.com" required/><br/>
-        </div>
-        <div class="row">
-            <label for="subject">Subject</label><br/>
-            <input id="subject" class="input" name="subject" type"text" value="" size="50"/><br/>
-        </div>
-        <div class="row">
-            <label for="message">Message:</label><br/>
-            <textarea id="message" class="input" name="message" rows="7" cols="50" placeholder="Your Message"></textarea><br/>
-        </div>
-
-        <div>
-            <input type="submit" value="Submit" />
-        </div>
-    </form>
 </body>
 </html>

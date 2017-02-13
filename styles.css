@@ -1,7 +1,96 @@
 body{
-    font-family: "Arimo", sans-serif;
-    background-image: url("images/blurrysky.jpg")
-    background-size: 100%;
+    font-family: 'Arimo', Helvetica, sans-serif;
+    background-color: #EFF2F7;
+    color: #0F2439;
 }
 
-.navsect
+.navsection {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #1E374F;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 10px 0px 10px;
+}
+
+.navsection a{
+    color: #EFF2F7;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: underline;
+    padding: 15px;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.topbar{
+    margin: 1px auto;
+    padding: 15px;
+    width: 100%;
+    background-color: #0F2439;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-start;
+    color: #EFF2F7;
+}
+
+.title {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-image: url("images/img_3027.jpg");
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.title span {
+    color: #EFF2F7;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    padding: 25px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #1E374F;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 10px 0px 10px;
+}
+.footer span {
+    color: #EFF2F7;
+    padding-right: 15px;
+}
+.button {
+    text-align: center;
+    display: block;
+    color: #EFF2F7;
+}
+
+.button a{
+     color: #EFF2F7;
+     font-family: 'Arimo', sans-serif;
+     text-decoration: none;
+    font-size: 15px;
+     padding: 10px;
+    background-color: #0F2439;
+    border-radius: 10px;
+ }
+.contactrow {
+    margin-top: 15px;
+}
+
+.contact-form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+ }
