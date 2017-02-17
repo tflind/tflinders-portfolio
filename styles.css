@@ -11,7 +11,7 @@ body{
     background-color: #1E374F;
     border-radius: 3px;
     margin: 0 auto;
-    padding: 10px 0px 10px;
+    padding: 10px 0 10px;
 }
 
 .navsection a{
@@ -29,27 +29,16 @@ body{
     border-radius: 3px;
 }
 
-.topbar{
-    margin: 1px auto;
-    padding: 15px;
-    width: 100%;
-    background-color: #0F2439;
-    border-radius: 3px;
-    display: flex;
-    justify-content: flex-start;
-    color: #EFF2F7;
-}
-
 .title {
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-size: cover;
     background-image: url("images/winter-run.JPG");
     margin: 0 auto;
     padding-top: 30px;
 }
 
-.title span {
+.title p {
     color: #0F2439;
     text-align: center;
     font-size: 30px;
@@ -60,6 +49,11 @@ body{
 .topbarinfo {
     display: flex;
     height: 90%;
+}
+
+.projectinfo {
+    display: flex;
+    justify-content: center;
 }
 
 .topleftcontent {
@@ -79,8 +73,7 @@ body{
 .topcontent {
     width: 20%;
     display: block;
-    text-align: left
-    margin-top: 40px;
+    text-align: left;
     padding: 40px;
 }
 
@@ -94,6 +87,7 @@ body{
 .aboutcontent {
     width: 80%;
     display: block;
+    padding: 0 0 15px 60px;
 }
 
 .footer {
@@ -103,7 +97,7 @@ body{
     background-color: #1E374F;
     border-radius: 3px;
     margin: 0 auto;
-    padding: 10px 0px 10px;
+    padding: 10px 0 10px;
 }
 .footer span {
     color: #EFF2F7;
@@ -112,9 +106,7 @@ body{
 
 .resumebutton {
     display: flex;
-    justify-content: left;
     margin-top: 40px;
-    color: #EFF2F7;
 }
 
 .resumebutton a{
@@ -129,18 +121,17 @@ body{
 .button {
     display: flex;
     justify-content: center;
-    color: #EFF2F7;
 }
 
 .button a{
-     color: #EFF2F7;
-     font-family: 'Arimo', sans-serif;
-     text-decoration: none;
+    color: #EFF2F7;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
     font-size: 15px;
-     padding: 10px;
+    padding: 10px;
     background-color: #0F2439;
     border-radius: 10px;
- }
+}
 
 .contactrow {
     margin-top: 15px;
@@ -152,3 +143,26 @@ body{
     display: flex;
     justify-content: center;
  }
+
+.mydescription {
+    display: flex;
+}
+
+.column-one {
+    order: 1;
+    text-align: center;
+    width: 40%;
+
+}
+
+.column-two {
+    order: 2;
+    text-align: center;
+    width: 40%;
+}
+
+.column-three {
+    order: 3;
+    text-align: center;
+    width: 40%;
+}
